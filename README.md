@@ -32,9 +32,13 @@ brew install percol fasd mackup tmux tmuxinator font-meslo-for-powerline
 brew cask install iterm2 atext copyq
 ```
 
-#### NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the snippets/README.md for description of what subsitutions are available.
+***aText*** https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the snippets/README.md for description of what subsitutions are available.
 
-#### NOTE: copyQ https://hluk.github.io/CopyQ/ is a free clipboard history, make a global shortcut of CTL+Shift+V and have it pop up a searchable paste history over the last million or so paste items you have had :)
+***copyQ*** https://hluk.github.io/CopyQ/ is a free clipboard history, make a global shortcut of CTL+Shift+V and have it pop up a searchable paste history over the last million or so paste items you have had :)
+
+***iterm2*** https://iterm2.com/ best terminal... not much more to say
+
+***Mackup*** https://github.com/lra/mackup lets me sync ALL my configs straight to cloud and pull down automatically on any new machine, so I dont have to muck about with dotfile repositroies
 
 Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
 
