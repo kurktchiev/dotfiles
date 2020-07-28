@@ -28,7 +28,7 @@ brew install romkatv/powerlevel10k/powerlevel10k
 I use a few other tools to make shell life easier so go ahead and install those as well:
 
 ```bash
-brew install percol fasd mackup tmuxinator
+brew install percol fasd mackup tmuxinator font-meslo-for-powerline
 brew cask install iterm2 atext
 ```
 
