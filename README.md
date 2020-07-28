@@ -29,7 +29,7 @@ I use a few other tools to make shell life easier so go ahead and install those 
 
 ```bash
 brew install percol fasd mackup tmuxinator font-meslo-for-powerline
-brew cask install iterm2 atext
+brew cask install iterm2 atext copyq
 ```
 
 #### NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the snippets/README.md for description of what subsitutions are available.
