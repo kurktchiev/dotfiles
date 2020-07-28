@@ -32,7 +32,7 @@ brew install percol fasd mackup tmux tmuxinator font-meslo-for-powerline
 brew cask install iterm2 atext copyq
 ```
 
-***aText*** https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the snippets/README.md for description of what subsitutions are available.
+***aText*** https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the [snippets README](snippets/README.md) for description of what subsitutions are available.
 
 ***copyQ*** https://hluk.github.io/CopyQ/ is a free clipboard history, make a global shortcut of CTL+Shift+V and have it pop up a searchable paste history over the last million or so paste items you have had :)
 
