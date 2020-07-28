@@ -1,11 +1,11 @@
 # dotfiles
 
 This is all ZSH based so you need it as your primary shell:
-NOTE: OS X Big Sir and later come with ZSH built-in, but I prefer using the latest from brew as its part of my new machine workflow anyway
 ```bash
 brew install zsh
 chsh -s /usr/local/bin/zsh
 ```
+NOTE: OS X Big Sir and later come with ZSH built-in, but I prefer using the latest from brew as its part of my new machine workflow anyway
 
 The prompt itself is based on powerlevel10k https://github.com/romkatv/powerlevel10k
 ```bash
