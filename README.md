@@ -34,6 +34,8 @@ brew cask install iterm2 atext copyq
 
 #### NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the snippets/README.md for description of what subsitutions are available.
 
+#### NOTE: copyQ https://hluk.github.io/CopyQ/ is a free clipboard history, make a global shortcut of CTL+Shift+V and have it pop up a searchable paste history over the last million or so paste items you have had :)
+
 Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
 
 You can now start a new iTerm session. I use its TMUX integration combined with Tmuxinator so to attach back or re-create my sessions in tmux simply do. You can edit the file and build your own window flow:
