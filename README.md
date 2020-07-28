@@ -2,7 +2,7 @@
 
 ![iTerm prompt look](iterm-prompt.png)
 
-The prompt structure is as follows: time | kubernetes-cluster-name@current-namespace | git status | directory
+The prompt structure is as follows: ***time | kubernetes-cluster-name@current-namespace | git status | directory***
 
 I also have visual `.history` fuzzy search, so when you hit CTL+R you can browse through history much more sanely
 
