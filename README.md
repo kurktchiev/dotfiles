@@ -2,6 +2,8 @@
 
 ![iTerm prompt look](iterm-prompt.png)
 
+The prompt structure is as follows: time | kubernetes-cluster-name@current-namespace | git status | directory
+
 This is all ZSH based so you need it as your primary shell:
 
 ```bash
