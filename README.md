@@ -18,7 +18,7 @@ I use a few other tools to make shell life easier so go ahead and install those 
 brew install percol fasd mackup tmuxinator
 brew cask install iterm2 atext
 ```
-NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets.
+NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the README in that folder for description of what subsitutions are available.
 
 Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
 
