@@ -38,7 +38,7 @@ brew cask install iterm2 atext copyq
 
 ***iterm2*** https://iterm2.com/ best terminal... not much more to say
 
-***Mackup*** https://github.com/lra/mackup lets me sync ALL my configs straight to cloud and pull down automatically on any new machine, so I dont have to muck about with dotfile repositroies
+***Mackup*** https://github.com/lra/mackup lets me sync ALL my configs straight to cloud and pull down automatically on any new machine, so I dont have to muck about with dotfile repositroies as it also does regular OS X application configs
 
 Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
 
