@@ -4,6 +4,10 @@
 
 The prompt structure is as follows: time | kubernetes-cluster-name@current-namespace | git status | directory
 
+I also have visual .history fuzzy search, so when you hit CTL+R you can browse through history much more sanely
+
+![history file search](percol-search.png)
+
 This is all ZSH based so you need it as your primary shell:
 
 ```bash
