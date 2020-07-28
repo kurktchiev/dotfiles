@@ -57,8 +57,6 @@ autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/dctl
 
-# Homebrew github token
-export HOMEBREW_GITHUB_API_TOKEN=c25fccc0be6bc492786dcaa4182d085d29ca7663
 export LESS='-IRX'
 
 setopt ALWAYS_TO_END           # full completions move cursor to the end
