@@ -1,3 +1,4 @@
+##MODIFY##
 # include ~/.nano/*.nanorc
 # before uncommenting above clone https://github.com/scopatz/nanorc into .nano
 set tabsize 2
