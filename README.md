@@ -18,8 +18,13 @@ I use a few other tools to make shell life easier so go ahead and install those 
 brew install percol fasd mackup tmuxinator
 brew cask install iterm2 atext
 ```
-NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent.
+NOTE: aText https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets.
 
-Copy the `zshrc` and `p10k.zsh` files to your `$HOME/.`
+Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
+
+You can now start a new iTerm session. I use its TMUX integration combined with Tmuxinator so to attach back or re-create my sessions in tmux simply do:
+```bash
+tmuxinator start default
+```
 
 I have placed `##MODIFY##` in all the dotfiles in places I generally think people will want their own modifications.
