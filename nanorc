@@ -1,0 +1,25 @@
+set tabsize 2
+set tabstospaces
+set suspend
+set smarthome
+set smooth
+set morespace
+set nowrap
+set showcursor
+set positionlog
+set linenumbers
+set constantshow
+set autoindent
+set whitespace "»⋅"
+set wordchars "_"
+set zap
+set smooth
+set suspend
+set nohelp
+#set mouse
+# ESC+< and ESC+> in iTerm
+set multibuffer
+set titlecolor white,black
+set numbercolor white,black
+set statuscolor white,black
+set keycolor white,black
