@@ -11,7 +11,7 @@ windows:
   - boris_cluster:
       layout: tiled
       pre:
-        - iterm2_tab_color 160 100 100
+        - tab_color 160 100 100
         - echo Set the color
         - clear
       panes:
@@ -21,7 +21,7 @@ windows:
   - colo_control:
       layout: tiled
       pre:
-        - iterm2_tab_color 100 120 85
+        - tab_color 100 120 85
         - echo Set the color
         - clear
       panes:
@@ -37,15 +37,15 @@ windows:
   - solutions_git:
       layout: tiled
       pre:
-        - iterm2_tab_color 80 100 130
+        - tab_color 80 100 130
         - echo Set the color
         - clear
       panes:
-        - cd ~/Sources/Diamanti/solutions
+        - cd ~/Sources/solutions
   - dio:
       layout: tiled
       pre:
-        - iterm2_tab_color 110 50 150
+        - tab_color 110 50 150
         - echo Set the color
         - clear
       panes:
@@ -53,7 +53,7 @@ windows:
   - misc_git:
       layout: tiled
       pre:
-        - iterm2_tab_color 65 45 35
+        - tab_color 65 45 35
         - echo Set the color
         - clear
       panes:

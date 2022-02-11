@@ -75,7 +75,7 @@ NOTE: Anywhere you see `【key:↩ code:36】` or similar, simply means that it 
 `ps -ef | grep -i 【|】*`
 
 ;dsrc
-`cd ~/Sources/Diamanti【key:↩ code:36】`
+`cd ~/Sources/【key:↩ code:36】`
 
 ;c
 `【clipboard】`
@@ -84,4 +84,4 @@ NOTE: Anywhere you see `【key:↩ code:36】` or similar, simply means that it 
 `tmuxinator start default【key:↩ code:36】`
 
 ;up
-`brew update; brew upgrade; brew cask upgrade; brew cleanup; gem update; gem cleanup; brew bundle dump --force --file=~/Dropbox/Brewfile; upgrade_oh_my_zsh【key:↩ code:36】`
+`;u brew update; brew upgrade; brew upgrade --cask; brew cleanup; brew autoremove; gem update; gem cleanup; brew bundle dump --force --file="$(find ~/*Drive -type f -name Brewfile)"; sh "$(find ~/*Drive -type f -name node-upgrade.sh)"; gcloud components update --quiet #upgrades【key:↩ code:36】`

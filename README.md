@@ -4,10 +4,6 @@
 
 The prompt structure is as follows: ***time | kubernetes-cluster-name@current-namespace | git status | directory***
 
-I also have visual `.history` fuzzy search, so when you hit CTL+R you can browse through history much more sanely
-
-![history file search](percol-search.png)
-
 This is all ZSH based so you need it as your primary shell:
 
 ```bash
@@ -17,10 +13,15 @@ chsh -s /usr/local/bin/zsh
 
 #### NOTE: OS X Big Sir and later come with ZSH built-in, but I prefer using the latest from brew as its part of my new machine workflow anyway
 
-The prompt itself is based on powerlevel10k https://github.com/romkatv/powerlevel10k
+The prompt itself is based on powerlevel10k & z4h <https://github.com/romkatv/powerlevel10k> & <https://github.com/romkatv/zsh4humans>
+z4h includes a copy of powerlevel10k so you dont need to install both.
 
 ```bash
-brew install romkatv/powerlevel10k/powerlevel10k
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
 ```
 
 #### NOTE: I provide my own `p10k.zsh` which customizes the theme to my liking, but if you would like to see what the theme author meant for things to look and behave like feel free to run `p10k configurator` and generate your own `p10k.zsh` file.
@@ -28,7 +29,7 @@ brew install romkatv/powerlevel10k/powerlevel10k
 I use a few other tools to make shell life easier so go ahead and install those as well:
 
 ```bash
-brew install percol fasd mackup tmux tmuxinator font-meslo-for-powerline
+brew install bat tig lsd mackup tmux tmuxinator xpanes k9s font-meslo-for-powerline
 brew cask install iterm2 atext copyq
 ```
 
