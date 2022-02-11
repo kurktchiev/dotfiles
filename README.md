@@ -41,7 +41,9 @@ brew cask install iterm2 atext copyq
 
 ***Mackup*** https://github.com/lra/mackup lets me sync ALL my configs straight to cloud and pull down automatically on any new machine, so I dont have to muck about with dotfile repositroies as it also does regular OS X application configs
 
-Copy the `zshrc`, `p10k.zsh` and `tmuxinator/default.yml` files to your `$HOME/.`
+Copy the `zshrc.custom`, `p10k.zsh`, `tmuxinator/` and `nanorc` files to your `$HOME/.`
+
+Finally add a line to load `zshrc.custom` from the main `zshrc` file: `echo z4h source ~/.zshrc.custom >> .zshrc`
 
 You can now start a new iTerm session. I use its TMUX integration combined with Tmuxinator so to attach back or re-create my sessions in tmux simply do. You can edit the file and build your own window flow:
 
