@@ -30,7 +30,7 @@ I use a few other tools to make shell life easier so go ahead and install those 
 
 ```bash
 brew install bat tig lsd mackup tmux tmuxinator xpanes k9s font-meslo-for-powerline
-brew cask install iterm2 atext copyq
+brew cask install iterm2 atext copyq bettertouchtool
 ```
 
 ***aText*** https://trankynam.com/atext/ is a licensed app, it costs $5, but it is going to be the best $$ you have ever spent. Once you start it up, simply go into the snippets folder, select all on the files and open them with aText to import text insertion snippets. Check the [snippets README](snippets/README.md) for description of what subsitutions are available.
@@ -40,6 +40,23 @@ brew cask install iterm2 atext copyq
 ***iterm2*** https://iterm2.com/ best terminal... not much more to say
 
 ***Mackup*** https://github.com/lra/mackup lets me sync ALL my configs straight to cloud and pull down automatically on any new machine, so I dont have to muck about with dotfile repositroies as it also does regular OS X application configs
+
+***BetterTouchTool*** https://folivora.ai/ control anything and everything from your keyboard + a window snapping tool/management all in one
+
+***Bat*** https://github.com/sharkdp/bat next gen `cat`
+
+***Tig*** https://github.com/jonas/tig text based git interface
+
+***lsd*** https://github.com/Peltoche/lsd `ls` on steroids
+
+***MackUp*** https://github.com/lra/mackup backup all your app/shell configs to a cloud and restore them anywhere
+
+***Tmuxinator*** https://github.com/tmuxinator/tmuxinator tmux pane management and sessions restoration (integrates with iTerm and tmux control mode)
+
+***Xpanes*** https://github.com/greymd/tmux-xpanes tmux plugin allowing for quick tmux window creation
+
+***K9S*** https://github.com/derailed/k9s basically `htop` for kube
+
 
 Copy the `zshrc.custom`, `p10k.zsh`, `tmuxinator/` and `nanorc` files to your `$HOME/.`
 
